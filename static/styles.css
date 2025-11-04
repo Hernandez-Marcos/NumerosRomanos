@@ -86,9 +86,11 @@ button:hover {
 .correctos {
     color: #4CAF50; /* verde */
     font-weight: bold;
+    font-size: 1.3em;
 }
 
 .incorrectos {
     color: #f44336; /* rojo */
     font-weight: bold;
+    font-size: 1.3em;
 }
