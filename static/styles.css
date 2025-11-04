@@ -22,8 +22,8 @@ body {display: flex;                /* activa flexbox */
     background: #2a2a2a;
     padding: 20px;
     border-radius: 15px;
-    width: 35%;
-    height: 40%;
+    width: 35vw;
+    height: 40vh;
     margin: auto;
     box-shadow: 0 0 10px #000;
     display: flex;
