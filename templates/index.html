@@ -24,6 +24,11 @@
         {% if mensaje %}
         <p class="mensaje">{{ mensaje }}</p>
         {% endif %}
+
+        <div class="contador-respuestas">
+            <p class="correctos">Correctos: {{ correctos }}</p>
+            <p class="incorrectos">Incorrectos: {{ incorrectos }}</p>
+        </div>
     </div>
 </body>
 </html>

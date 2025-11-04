@@ -75,3 +75,20 @@ button:hover {
 .arriba-derecha { top: 5%; right: 5%; }
 .abajo-izquierda { bottom: 5%; left: 5%; }
 .abajo-derecha { bottom: 5%; right: 5%; }
+
+.contador-respuestas {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around; /* separa los contadores */
+    width: 60%;
+}
+
+.correctos {
+    color: #4CAF50; /* verde */
+    font-weight: bold;
+}
+
+.incorrectos {
+    color: #f44336; /* rojo */
+    font-weight: bold;
+}
