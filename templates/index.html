@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Juego de Números Romanos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="contenedor">
+        <img src="{{ url_for('static', filename='gatito1.png') }}" class="gatito arriba-izquierda">
+        <img src="{{ url_for('static', filename='gatito2.png') }}" class="gatito arriba-derecha">
+        <img src="{{ url_for('static', filename='gatito3.png') }}" class="gatito abajo-izquierda">
+        <img src="{{ url_for('static', filename='gatito4.png') }}" class="gatito abajo-derecha">
+
+        <h1>Adiviná el número romano</h1>
+        <p class="romano">{{ romano }}</p>
+
+        <form method="POST">
+            <input type="hidden" name="numero_correcto" value="{{ numero_correcto }}">
+            <input type="text" name="respuesta" placeholder="Tu respuesta..." required>
+            <button type="submit">Comprobar</button>
+        </form>
+
+        {% if mensaje %}
+        <p class="mensaje">{{ mensaje }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>
