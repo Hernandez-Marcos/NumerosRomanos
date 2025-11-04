@@ -32,14 +32,19 @@ body {display: flex;                /* activa flexbox */
     justify-content: center;
 }
 
+h1 {
+    font-size: 1.5vw;
+    margin: 20px 0;
+}
+
 .romano {
-    font-size: 2em;
+    font-size: 2vw; /* se ajusta al ancho de la pantalla */
     margin: 20px 0;
 }
 
 input, button {
-    padding: 8px;
-    font-size: 1em;
+    font-size: 1vw;
+    padding: 1vw;
     border-radius: 5px;
     border: none;
 }
